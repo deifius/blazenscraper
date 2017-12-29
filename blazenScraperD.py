@@ -10,7 +10,7 @@ from twilio.rest import TwilioRestClient
 ACCOUNT_SID = "" 
 AUTH_TOKEN = "" 
 #BlazenGems location
-site = "http://blazengems.com/store/index.php?main_page=products_new&zenid=vub07oc2b512ktnu1ol7nmei35"
+site = "https://blaze-n-gems.myshopify.com/collections/rough-montana-sapphires?page=2&sort_by=created-descending"
 yourcellphone = ""
 originnumber = ""
 
@@ -32,4 +32,4 @@ while 1==1:
 	for date in datesadded:
 		newdates.write(date +"\n")
 	newdates.close()
-	sleep(900)
+	sleep(1200)
