@@ -1,0 +1,22 @@
+1560c1560
+<     <p>5.86cts. LIGHT GREEN MONTANA SAPPHIRE CRYSTAL ROUGH POOP</p>
+---
+>     <p>5.86cts. LIGHT GREEN MONTANA SAPPHIRE CRYSTAL ROUGH SPECIMEN</p>
+2692,2699c2692,2699
+< <script>
+<     var UEVParams = {
+<         "id" : "aca5a43340d0955733e93296ed6da9e2",
+<         'UEVDomain' : "//shopify-apps.spur-i-t.com/upsell-on-exit-visit/call/rpc",
+<         "apiScript" : "//cdn.shopify.com/s/assets/themes_support/api.jquery-0ea851da22ae87c0290f4eeb24bc8b513ca182f3eb721d147c009ae0f5ce14f9.js",
+<         "domain" : "blaze-n-gems.myshopify.com"
+<     }
+< </script>
+---
+> <script>
+>     var UEVParams = {
+>         "id" : "aca5a43340d0955733e93296ed6da9e2",
+>         'UEVDomain' : "//shopify-apps.spur-i-t.com/upsell-on-exit-visit/call/rpc",
+>         "apiScript" : "//cdn.shopify.com/s/assets/themes_support/api.jquery-0ea851da22ae87c0290f4eeb24bc8b513ca182f3eb721d147c009ae0f5ce14f9.js",
+>         "domain" : "blaze-n-gems.myshopify.com"
+>     }
+> </script>

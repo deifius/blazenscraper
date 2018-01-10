@@ -1,0 +1,26 @@
+#N canvas 86 103 450 459 10;
+#X obj 113 60 loadbang;
+#X obj 109 162 metro;
+#X obj 151 162 bng 136 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 139 137 * 60000;
+#X obj 113 83 t b b;
+#X obj 105 132 tgl 26 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X text 168 112 minutes sleep;
+#X msg 103 107 1;
+#X obj 147 331 shell;
+#X msg 148 307 ./wgetNewRenameOldFile+dif.sh;
+#X obj 173 378 shell;
+#X msg 174 354 ./scrapeDiffComposeEmail.py;
+#X msg 141 113 1;
+#X connect 0 0 4 0;
+#X connect 1 0 2 0;
+#X connect 3 0 1 1;
+#X connect 4 0 7 0;
+#X connect 4 1 12 0;
+#X connect 5 0 1 0;
+#X connect 8 1 11 0;
+#X connect 9 0 8 0;
+#X connect 11 0 10 0;
+#X connect 12 0 3 0;
