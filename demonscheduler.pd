@@ -1,11 +1,11 @@
-#N canvas 86 103 450 459 10;
+#N canvas 87 129 450 459 10;
 #X obj 113 60 loadbang;
 #X obj 109 162 metro;
-#X obj 151 162 bng 136 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 151 162 bng 136 250 50 0 empty empty empty 17 7 0 10 -45772
 -1 -1;
 #X obj 139 137 * 60000;
 #X obj 113 83 t b b;
-#X obj 105 132 tgl 26 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 105 132 tgl 26 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X text 168 112 minutes sleep;
 #X msg 103 107 1;

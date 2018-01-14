@@ -4,15 +4,15 @@ from BeautifulSoup import BeautifulSoup
 from urllib2 import urlopen
 from time import sleep
 import re
-from twilio.rest import TwilioRestClient 
+#from twilio.rest import TwilioRestClient 
 
 # Twilio Authorizations	
 ACCOUNT_SID = "" 
 AUTH_TOKEN = "" 
 #BlazenGems location
 site = "https://blaze-n-gems.myshopify.com/collections/rough-montana-sapphires?page=2&sort_by=created-descending"
-yourcellphone = ""
-originnumber = ""
+#yourcellphone = ""
+#originnumber = ""
 
 while 1==1:
 	html = urlopen(site).read()
